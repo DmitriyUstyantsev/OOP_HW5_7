@@ -298,7 +298,7 @@ func main() {
 
 	input := ""
 
-	fmt.Println(" PowerShell не хочет краситься ")
+	fmt.Println("")
 	for {
 		if strings.Compare(input, "q") == 0 {
 			break

@@ -25,7 +25,7 @@ public class Main {
             if ( input.equals( "q" ) ) break;
             ConsoleView.view();
 
-            System.out.println( "\n" + AnsiColors.ANSI_RED_BACKGR  + " --- Java не умеет красить текст в PowerShell --- " + AnsiColors.ANSI_RESET + "\n");
+            System.out.println( "\n" + AnsiColors.ANSI_RED_BACKGR  + " текст не окрашен " + AnsiColors.ANSI_RESET + "\n");
 
             makeStep();
             System.out.println( "\nPress 'ENTER' to Step() or 'q' to exit program" );
